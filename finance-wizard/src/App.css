@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.wizard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.charts-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: --var(--shadow);
+  margin: 2rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
